@@ -1,0 +1,245 @@
+HTML{
+    font-size:16px;
+}
+
+.logo img {
+  height:2rem;
+}
+
+header {
+    background-color:pink;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    background-color:white;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    align-items:center;
+    height:4rem;
+}
+
+
+nav ul li {
+   display:inline-flex;
+    justify-content: space-between;
+    color:black;
+    margin-left:1rem;
+    font-size:2rem;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+    height:2rem;
+}
+
+.banner {
+    display:flex;
+    margin:0 auto;
+}
+
+.banner img {
+    width:100%;
+    height:auto;
+
+}
+
+.banner-right {
+width:40%;
+margin-top:10rem;
+text-align:left;
+flex-direction: column;
+}
+
+.banner-left {
+width:60%;
+padding:2rem 1.5rem;
+}
+.banner h1{
+    font-size:5rem;
+}
+.banner-right .button{
+    text-align: center;
+    color:white;
+    background-color:black;
+    font-size:2rem;
+    margin:auto;
+    display:block;
+    border:none;
+    padding:0.5rem;
+    width:50%;
+    cursor:pointer;
+    margin-top:5rem;
+
+}
+.button:hover{
+
+}
+
+.container {
+    margin:0 auto;
+}
+
+h1 {
+    font-size:3rem;
+}
+
+h3 {
+    font-size:2rem;
+}
+
+.logo-text-container {
+    font-size:2rem;
+}
+
+.information {
+    background-color:lightgrey;
+    display:flex;
+
+}
+
+.information-left {
+    width:60%;
+    margin:2rem 1.5rem;
+}
+.information-left h1{
+    margin-bottom: 1.5rem;
+}
+
+
+.information img {
+  width:100%;
+height:auto;
+}
+
+.more-information {
+    width:40%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.box {
+    width:100%;
+    display:inline-flex;
+    align-items:center;
+}
+
+.more-information img {
+   width:35%;
+    height:auto;
+    margin:1rem;
+
+}
+
+.information-text {
+    width:65%;
+}
+.information-text h3{
+margin:0 auto;
+}
+
+.highlight a {
+   color:darkmagenta;
+    font-size:1.5rem;
+    text-decoration: none;
+}
+
+p {
+    font-size:2rem;
+}
+
+h3 {
+    font-size:3rem;
+}
+
+
+.information-text p {
+  margin:1rem auto;
+}
+
+.author {
+    font-size:1.5rem;
+}
+
+.courses {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 4.5rem;
+    padding:0rem 1rem 1.5rem 1rem;
+    justify-content:center;
+    align-content: space-around;
+
+}
+
+.learning{
+    background-color:pink;
+}
+.learning-text{
+    margin:auto 1rem;
+}
+.learning h1{
+    text-align: center;
+    font-size:3rem;
+    margin:0 auto;
+    padding:2rem;
+}
+
+.course {
+    margin:2rem;
+    background-color:white;
+    width:26.7%;
+    text-align:left;
+}
+
+
+.course h3{
+    font-size:2.5rem;
+}
+
+
+.course-description {
+    margin-left:1rem;
+}
+
+.course a {
+    text-transform: uppercase;
+    margin:0.5rem auto;
+    font-size:1.8rem;
+    font-family: Helvetica;
+    color:gray;
+}
+.course p{
+    color:gray;
+    font-family:Helvetica;
+    font-size:1.5rem;
+}
+
+
+
+.thesis-right {
+    width:40%;
+    flex-direction: column;
+}
+
+.thesis-left {
+    width:60%;
+    margin:0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.exhibit {
+    display:flex;
+}
+
+.thesis h1 {
+    text-align: center;
+    font-size:3rems;
+    margin-top:0rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+
+}
+
+.thesis {
+    background-color:lightgrey;
+}

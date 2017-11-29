@@ -35,7 +35,7 @@ nav ul li {
 
 }
 
-nav .mobile{
+ .mobile{
   display:none;
 
 }
@@ -239,6 +239,7 @@ h3 {
 
 .course-description {
     margin-left:1rem;
+    margin-right:1rem;
 }
 
 .course a {
@@ -328,4 +329,30 @@ text-decoration: none;
 
 .footer-container {
     display:flex;
+}
+
+@media only screen and (max-width: 660px) {
+.banner{
+  flex-flow:column;
+}
+    .banner-left{
+        width:100%;
+        padding:0;
+    }
+    .banner-right{
+      text-align: center;
+      width:100%;
+      margin-bottom:2rem;
+    }
+    .banner-right .button{
+      margin-top:3rem;
+      font-size: 3rem;
+    }
+    .mobile{
+      display:flex;
+      flex-grow:1;
+      justify-content: space-between;
+    }
+    .laptop{
+      display:none;
 }

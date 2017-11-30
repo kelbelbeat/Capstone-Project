@@ -226,6 +226,7 @@ h3 {
     background-color:white;
     width:26.7%;
     text-align:left;
+    flex-wrap:wrap;
 }
 .course img{
     width:100%;
@@ -330,24 +331,33 @@ text-decoration: none;
 .footer-container {
     display:flex;
 }
-
-@media only screen and (max-width: 660px) {
-.banner{
-  flex-flow:column;
+@media only screen and (max-width:990px){
+  .course{
+    flex-basis:42%;
+    flex-wrap:wrap;
+    margin:1rem;
+  }
 }
-    .banner-left{
+@media only screen and (max-width:917px){
+  .banner{
+    flex-flow:column;
+  }
+      .banner-left{
+          width:100%;
+          padding:0;
+      }
+      .banner-right{
+        text-align: center;
         width:100%;
-        padding:0;
-    }
-    .banner-right{
-      text-align: center;
-      width:100%;
-      margin-bottom:2rem;
-    }
-    .banner-right .button{
-      margin-top:3rem;
-      font-size: 3rem;
-    }
+        margin-bottom:2rem;
+      }
+      .banner-right .button{
+        margin-top:3rem;
+        font-size: 3rem;
+      }
+}
+@media only screen and (max-width: 660px) {
+
     .mobile{
       display:flex;
       flex-grow:1;
@@ -355,4 +365,40 @@ text-decoration: none;
     }
     .laptop{
       display:none;
+    }
+    .information{
+      flex-flow:column;
+      display:flex;
+      justify-content:center;
+      text-align:center;
+    }
+    .information-left{
+      width:100%;
+    }
+    .more-information{
+      width:100%;
+    }
+    .guest,
+    .orientation
+    {
+      background-color:white;
+    }
+    .exhibit{
+      flex-flow:column;
+      display:flex;
+      align-items: center;
+    }
+    .thesis-left,
+    .thesis-right{
+      width:100%;
+    
+    }
+}
+@media only screen and (max-width:480px) {
+  .course{
+    flex-basis:100%;
+    flex-wrap:wrap;
+    margin:1rem;
+  }
+
 }
